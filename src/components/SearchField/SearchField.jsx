@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addFilter } from 'redux/contactsSlice';
+import { addFilter } from 'redux/contacts/contactsSlice';
 
 export function SearchField() {
   const [value, setValue] = useState('');

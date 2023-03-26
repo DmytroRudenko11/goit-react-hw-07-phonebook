@@ -3,7 +3,7 @@ import {
   fetchAllContacts,
   addContact,
   deleteContact,
-} from './contacts/contactsOperations';
+} from './contactsOperations';
 
 const CONTACTS_SLICE = '@@contacts';
 

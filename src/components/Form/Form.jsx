@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
 
 import { addContact } from '../../redux/contacts/contactsOperations';
-import { selectContactsItems } from 'redux/selector';
+import { selectContactsItems } from 'redux/contacts/selector';
 
 export function Form() {
   const [name, setName] = useState('');
